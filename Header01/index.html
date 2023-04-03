@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Setting the pages character encoding -->
+        <meta charset="UTF-8">
+    
+        <!-- The meta viewport will scale my content to any device width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+         <!-- Link to my stylesheet -->
+         <link rel="stylesheet" href="hd01.css">  
+         <title>Header01</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <a href="javascript:writeFaq()" class="active" >よくあるご質問</a>
+            <a href="javascript:writeInq()" >お問い合わせ</a>
+            <div class="searchinput">
+                <form action="https://google.com/cse">
+                <input type="hidden" name="cx" value="000497818868148194334:bxtczfkqds8">
+                <input type="hidden" name="ie" value="UTF-8">
+                <input type="text" name="q" value="" class="searchbutton">
+                <button type="submit" name="sa" class="submitbutton">検索</button>
+                </form>
+            </div>
+        </div>
+
+            <tbody id="data-output">
+                <!-- Prodcuts from javascript file in here. -->
+            </tbody>
+    
+        <script src="hd01.js"></script> <!-- Link to the javascript file -->
+
+     </body>
+</html>
