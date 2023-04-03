@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0px;	
+    box-sizing: border-box;
+	
+}
+
+body{
+	min-height: 100vh;
+	color: #555;
+}
+
+table{
+	width:  1000px;
+	height: fit-content;
+	margin: 30px auto;
+	justify-content: space-evenly;
+	padding: 8px;
+	
+	
+}
+
+table th{
+	padding: 20px 0;
+	background-color: #f4f4f4;
+	/* background-color: #fff; */
+	border:  thin solid #d4d4d4;
+	font-style: san-seriff;
+	
+}
+
+table td{
+	padding: 30px;
+	width: 150px;
+	height: 200px;
+	
+}
+tbody{
+    display: flex;
+    flex-wrap: wrap;
+	align-content: flex-start;
+	gap: 1em;
+	padding: 10px;
+}
+
+table img{
+	width:  150px;
+}
